@@ -1,0 +1,24 @@
+size = 100
+
+Turtle.Speed = 5
+
+Turtle.Show()
+Turtle.Move(size)
+Turtle.TurnRight()
+Turtle.Move(size)
+Turtle.TurnRight()
+Turtle.Move(size * 40 / 100)
+Turtle.TurnRight()
+Turtle.Move(size)
+Turtle.Turn(180)
+Turtle.Move(size * 60 / 100)
+Turtle.Turn(45)
+Turtle.Move(size * 55 / 100)
+Turtle.Turn(45)
+Turtle.Move(20)
+
+Turtle.PenUp()
+Turtle.Move(40)
+Turtle.TurnRight()
+Turtle.Move(50)
+Turtle.TurnRight()
